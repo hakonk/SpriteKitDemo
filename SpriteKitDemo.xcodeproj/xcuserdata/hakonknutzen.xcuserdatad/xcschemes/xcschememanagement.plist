@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SpriteKitDemoTvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>A9BC13F71C7246620035CB41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9BC140F1C724B6B0035CB41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9BC141F1C724B6C0035CB41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9BC142A1C724B6C0035CB41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
