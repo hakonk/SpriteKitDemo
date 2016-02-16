@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9827F111C73CF52000030B0 /* rotateAndScale.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9827F101C73CF52000030B0 /* rotateAndScale.sks */; };
+		A9827F121C73D140000030B0 /* rotateAndScale.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9827F101C73CF52000030B0 /* rotateAndScale.sks */; };
+		A9827F131C73D948000030B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BC13E31C7246620035CB41 /* Assets.xcassets */; };
 		A9BC13DD1C7246620035CB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC13DC1C7246620035CB41 /* AppDelegate.swift */; };
 		A9BC13DF1C7246620035CB41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BC13DE1C7246620035CB41 /* ViewController.swift */; };
 		A9BC13E21C7246620035CB41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BC13E01C7246620035CB41 /* Main.storyboard */; };
@@ -52,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9827F101C73CF52000030B0 /* rotateAndScale.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = rotateAndScale.sks; path = ../rotateAndScale.sks; sourceTree = "<group>"; };
 		A9BC13D91C7246620035CB41 /* SpriteKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BC13DC1C7246620035CB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9BC13DE1C7246620035CB41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 		A9BC13DB1C7246620035CB41 /* SpriteKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9827F101C73CF52000030B0 /* rotateAndScale.sks */,
 				A9BC13DC1C7246620035CB41 /* AppDelegate.swift */,
 				A9BC13DE1C7246620035CB41 /* ViewController.swift */,
 				A9BC140A1C72467E0035CB41 /* MainScene.sks */,
@@ -335,6 +340,7 @@
 			files = (
 				A9BC13E71C7246620035CB41 /* LaunchScreen.storyboard in Resources */,
 				A9BC13E41C7246620035CB41 /* Assets.xcassets in Resources */,
+				A9827F111C73CF52000030B0 /* rotateAndScale.sks in Resources */,
 				A9BC140B1C72467E0035CB41 /* MainScene.sks in Resources */,
 				A9BC13E21C7246620035CB41 /* Main.storyboard in Resources */,
 			);
@@ -358,9 +364,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9827F121C73D140000030B0 /* rotateAndScale.sks in Resources */,
 				A9BC141A1C724B6B0035CB41 /* Assets.xcassets in Resources */,
 				A9BC14181C724B6B0035CB41 /* Main.storyboard in Resources */,
 				A9BC143D1C724C790035CB41 /* MainScene.sks in Resources */,
+				A9827F131C73D948000030B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,6 +746,7 @@
 				A9BC14031C7246620035CB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BC14041C7246620035CB41 /* Build configuration list for PBXNativeTarget "SpriteKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -746,6 +755,7 @@
 				A9BC14061C7246620035CB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BC14071C7246620035CB41 /* Build configuration list for PBXNativeTarget "SpriteKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -754,6 +764,7 @@
 				A9BC14091C7246620035CB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BC14321C724B6C0035CB41 /* Build configuration list for PBXNativeTarget "SpriteKitDemoTvOS" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +773,7 @@
 				A9BC14341C724B6C0035CB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BC14351C724B6C0035CB41 /* Build configuration list for PBXNativeTarget "SpriteKitDemoTvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +782,7 @@
 				A9BC14371C724B6C0035CB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BC14381C724B6C0035CB41 /* Build configuration list for PBXNativeTarget "SpriteKitDemoTvOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +791,7 @@
 				A9BC143A1C724B6C0035CB41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
